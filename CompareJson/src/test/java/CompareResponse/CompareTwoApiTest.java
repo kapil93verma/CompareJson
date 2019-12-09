@@ -1,6 +1,4 @@
 package CompareResponse;
-
-
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
@@ -12,7 +10,6 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-
 public class CompareTwoApiTest {
 
     @Test
